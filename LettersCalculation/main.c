@@ -1,7 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>
 #include <stdlib.h>
-
 
 #define SIZE_OF_INPUTED_STRING 1000000
 #define SIZE_OF_ALPHABET 25
@@ -14,8 +12,6 @@ int main() {
     int position = 0;
     int strLen;
     int i, j;
-    
-    
     
     char* inputedString;
     inputedString = (char*) malloc(SIZE_OF_INPUTED_STRING * sizeof(char));
