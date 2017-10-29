@@ -28,7 +28,7 @@ int main() {
     strLen = strlen(inputedString);
     for (i = 0; i < strLen; i++){
         //Considering characters from 'A' to 'Z' only and ignoring others
-        if ((inputedString[i] >= 'A' && inputedString[i]<='Z')) {
+        if ((inputedString[i] >= 'A' && inputedString[i] <= 'Z')) {
             countOfLetters[inputedString[i]-'A']++;
             counterTemporary[inputedString[i]-'A']++;
         }
